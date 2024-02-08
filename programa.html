@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha()
+    }
+    var ano = 2030;
+
+    mostra("Flávio tem " + (ano-1964)+ " anos")
+
+    mostra("Joaquim tem " + (ano-1975)+ " anos")
+
+    mostra("Barney tem " + (ano-1996)+ " anos")
+
+    var idadeFlavio = 66;
+    var idadeJoaquim = 55;
+    var idadeBarney = 34;
+
+
+    var media = (idadeFlavio+idadeJoaquim+idadeBarney)/3;
+
+    mostra("A média das idades é "+ Math.round(media))
+
+    var nome = "Flávio";
+
+    mostra("A idade de " + nome + " é " + idadeFlavio)
+ 
+
+</script>
